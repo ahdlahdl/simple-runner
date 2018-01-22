@@ -1,5 +1,5 @@
 # simple-runner
-for easy executing simple code.
+to execute simple code easily.
 
 # how to
 ### build
