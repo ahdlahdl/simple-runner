@@ -10,7 +10,7 @@ public class RestClientRunner implements SimpleRunner {
 	private Logger logger = LoggerFactory.getLogger(getClass());
 	
 	@Override
-	public void execute(String[] args) {
+	public void execute(String[] args) throws Exception {
 		String proxyHost = null;
 		Integer proxyPort = null;
 		
