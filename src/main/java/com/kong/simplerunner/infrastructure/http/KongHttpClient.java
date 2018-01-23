@@ -13,6 +13,10 @@ import org.slf4j.LoggerFactory;
 public class KongHttpClient {
 	private Logger logger = LoggerFactory.getLogger(getClass());
 	
+	public KongHttpClient() {
+		this(null, null);
+	}
+	
 	public KongHttpClient(String proxyHost, Integer proxyPort) {
 		httpClient = CloseableHttpClientFactory.getInstance().create(proxyHost, proxyPort);
 	}
