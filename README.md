@@ -2,10 +2,9 @@
 to execute simple code easily.
 
 # how to
-### build
+### build with all dependencies
 ```
-gradle clean
-gradle jar
+gradle clean fatjar
 ```
 
 ### execute
